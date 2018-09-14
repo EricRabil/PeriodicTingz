@@ -39,7 +39,7 @@ namespace PeriodicLib {
     
     const FAIL_ELEMENT: MiniPeriodicElement = {
         atomicNumber: -2,
-        symbol: "<<<Invalid Atomic Number>>>"
+        symbol: "�"
     };
     
     const periodicTable: Array<MiniPeriodicElement | PeriodicElement> = [
