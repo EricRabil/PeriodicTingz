@@ -69,7 +69,7 @@ body {
 }
 
 .output:before {
-    content: "Output";
+    content: "Output (if you see a -2, one of the letters you provided have no corresponding element symbol)";
     width: 100%;
 
     padding-top: 2px;
