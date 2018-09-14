@@ -14,8 +14,12 @@
             <div class="app">
                 <form class="input container" id="form">
                     <div class="direction-select">
-                        <input type="radio" name="direction" value="atomic"> Atomic Numbers<br>
-                        <input type="radio" name="direction" value="english"> English<br>
+                        <input type="radio" name="direction" id="atomic-radio" value="atomic">
+                        <label for="atomic-radio">Atomic Numbers</label>
+                        <br>
+                        <input type="radio" name="direction" id="english-radio" value="english">
+                        <label for="english-radio">English</label>
+                        <br>
                     </div>
                     <div class="text-input">
                         <textarea class="translate-input" type="text" id="input" placeholder="Enter the text to translate"></textarea>
